@@ -7,6 +7,7 @@ import {
   HStack,
   color,
 } from '@chakra-ui/react';
+
 export function Character(character) {
   return (
     <Box display='flex' bg='#2D3748' borderRadius='20px' overflow='hidden'>
@@ -15,6 +16,7 @@ export function Character(character) {
         alt={character.name}
         boxSize='160px'
         objectFit='cover'
+        loading='lazy'
       />
       <HStack
         borderTopLeftRadius='20px'

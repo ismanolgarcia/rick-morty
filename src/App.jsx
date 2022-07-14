@@ -1,6 +1,7 @@
 import { Container, Heading, Box } from '@chakra-ui/react';
 import { CharacterList } from './components/CharactersList';
 import ButtonModeColor from './components/ButtonModeColor';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         Rick And Morty
       </Heading>
       <CharacterList />
+      <Footer />
     </Container>
   );
 }
